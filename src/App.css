@@ -15,8 +15,13 @@ html{
 }
 
 .App-intro {
-  font-size: 22px;
+  font-size: 24px;
   font-family: Avenir;
+}
+
+.App-description{
+  font-size: 18px;
+  font-famiy: Avenir;
 }
 
 ul{

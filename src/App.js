@@ -10,7 +10,9 @@ class App extends Component {
       <img src={banner} className="banner" alt="banner" />
       </div>
       <p className="App-intro">
-      Welcome to Feline Finder <br></br> Post a picture of your lost pet along with your email and location so our community can help you locate them!
+      Welcome to Feline Finder
+      </p>
+      <p className="App-description">Post a picture of your lost pet along with your email and location so our community can help you locate them!
       </p>
       <div className="App-form">
 
