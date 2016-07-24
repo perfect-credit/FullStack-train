@@ -1,44 +1,74 @@
+/***************************
+TOP/MAIN ITEM PAGE ALIGNMENT
+***************************/
+
 html{
   margin: 0;
 }
 .App {
   text-align: center;
 }
-
-.form-control {
-  width: 75%;
+.banner{
+  width: 100%;
+  align-items: center;
 }
-
-.searchLost{
-  margin-bottom: 5%;
-  font-size: 18px;
+.form-horizontal {
+  width: 100%;
 }
-
 .App-intro {
   font-size: 24px;
   font-family: Avenir;
 }
-
 .App-description{
-  font-size: 18px;
+  font-size: 14px;
   font-famiy: Avenir;
 }
+
+/*********************
+SEARCH LOST PETS LINK
+**********************/
+
+.searchLost{
+  font-size: 20px;
+  background: #4B99AD;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  text-shadow: .5px .5px .5px black;
+}
+a#galBtn.searchLost{
+  margin-bottom: 10%;
+  padding-bottom: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+a:hover{
+  color: lightgrey;
+}
+
+/**********
+FORM STYLES
+***********/
 
 ul{
   list-style: none;
 }
-
+label{
+  color: #fff;
+  text-shadow: .5px .5px .5px black;
+  font-size: 16px;
+}
 .formStyle1 {
-    margin:10px auto;
-    max-width: 400px;
-    padding: 20px 12px 10px 20px;
+    margin:5px auto;
+    max-width: 500px;
+    padding: 10px 6px 5px 10px;
     font: 14px Avenir;
     font-weight: lighter;
 }
 .formStyle1 li {
     padding: 0;
     display: block;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
 }
 .formStyle1 label{
     margin:0 0 3px 0;
@@ -83,18 +113,27 @@ select{
     box-shadow: 0 0 8px #88D5E9;
     border: 1px solid #88D5E9;
 }
+.firstClass{
+  margin-top: 10%;
+}
 .formStyle1 .fieldDivided{
     width: 49%;
+    box-shadow: 1px 1px 1px black;
 }
-
 .formStyle1 .fieldLong{
     width: 100%;
+    box-shadow: 1px 1px 1px black;
 }
 .formStyle1 .fieldSelect{
     width: 100%;
+    box-shadow: 1px 1px 1px black;
 }
 .formStyle1 .fieldTextarea{
     height: 100px;
+}
+.formStyle1 .fieldPhoto{
+  box-shadow: 1px 1px 1px black;
+  width: 100%;
 }
 .formStyle1 input[type=submit], .formStyle1 input[type=button]{
     background: #4B99AD;
@@ -102,6 +141,7 @@ select{
     border: none;
     color: #fff;
     font-size: 18px;
+    text-shadow: .5px .5px .5px black;
 }
 .formStyle1 input[type=submit]:hover, .formStyle1 input[type=button]:hover{
     background: #4691A4;
@@ -112,12 +152,3 @@ select{
 .formStyle1 .required{
     color:red;
 }
-
-/*.App-logo {
-  animation: spin infinite 20s linear;
-  height: 80px;
-}*/
-/*@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/

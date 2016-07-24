@@ -1,21 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Feline Finder React Rebuild</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <script src="http://cdn.pubnub.com/pubnub-3.15.2.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feline Finder React Rebuild</title>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <div id="root"></div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` in this folder.
-      To create a production bundle, use `npm run build`.
-    -->
-  </body>
+  <script type="text/javascript">
+//   class List extends{
+//   var allLostPets;
+//
+//   var LostPet = function(){
+//     this.firstName = firstName.value;
+//     this.lastName = lastName.value;
+//     this.lastSeen = field5.value;
+//     this.email = email.value;
+//     this.picture = picture.value;
+//   }
+//
+//   var pubnub = PUBNUB.init({
+//     publish_key: 'pub-c-4fda54b6-b65c-4222-a468-94d6cd01374e',
+//     subscribe_key: 'sub-c-eb94da90-5126-11e6-971e-02ee2ddab7fe',
+//     error: function (error) {
+//       console.log('Error:', error);
+//     }
+//   });
+//
+//   function updateLostPets(data, channel){
+//     pubnub.publish({
+//       channel : channel,
+//       message : data,
+//       callback : function(m){
+//         console.log(m)
+//       }
+//     });
+//   }
+//
+//   function handlePostLostPet(){
+//     allLostPets[allLostPets.length] = new LostPet();
+//     updateLostPets(allLostPets, 'lostPets');
+//     console.log(allLostPets);
+//   }
+//
+//   pubnub.history({
+//     channel : 'lostPets',
+//     callback : function(m){
+//       allLostPets = m[0][0];
+//       console.log(allLostPets);
+//     },
+//     count : 1, // 100 is the default
+//     reverse : false // false is the default
+//   });
+//
+//   function displayPets(){
+//     for (var i = 0; i < allLostPets.length; i++) {
+//       document.body.innerHTML += "<hr>";
+//       document.body.innerHTML += "<p>"+allLostPets[i].firstName+"</p>";
+//       document.body.innerHTML += "<p>"+allLostPets[i].lastName+"</p>";
+//       document.body.innerHTML += "<p>"+allLostPets[i].lastSeen+"</p>";
+//       document.body.innerHTML += "<p>"+allLostPets[i].email+"</p>";
+//       document.body.innerHTML += "<p>"+allLostPets[i].picture+"</p>";
+//       document.body.innerHTML += "<button onclick='softDelete("+i+")'  style='margin-top: -100px; float: right;'> Remove this pet </button>";
+//       document.body.innerHTML += "<hr>";
+//     }
+//   }
+//
+//   function softDelete(i){
+//     console.log(i);
+//     allLostPets.splice(i,1);
+//     updateLostPets(allLostPets, 'lostPets');
+//   }
+// }
+  </script>
+</body>
 </html>
