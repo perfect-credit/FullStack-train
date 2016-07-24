@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
 
       <p className="App-intro">
-      Welcome to Feline Finder
+      Welcome to Feline & Friends Finder
       </p>
 
       <p className="App-description">Post a picture of your lost pet along with your email and location so our community can help you locate them!
@@ -20,7 +20,9 @@ class App extends Component {
 
         <ul className="formStyle1">
 
-          <li><a href="#" className="searchLost" id="galBtn" onClick={this.handleDisplayPets}>Search Lost Pets</a>
+          <li>
+          <a href="#" id="galBtn" className="searchLost" onClick={this.handleDisplayPets}>Search Lost Pets
+          </a>
           </li>
 
           <li>
@@ -59,7 +61,7 @@ class App extends Component {
           </li>
 
           <li>
-          <input type="submit" value="Add Your Pet" onClick={this.handlePostLostPet}></input>
+          <input id="submit" type="submit" value="Add Your Pet" onClick={this.handlePostLostPet}></input>
           </li>
           </ul>
           </form>
