@@ -26,7 +26,7 @@ html{
 
 /**************************************
 SEARCH LOST PETS LINK AND SUBMIT BUTTON
-***************************************/
+**************************************/
 
 .searchLost{
   font-size: 20px;
@@ -35,7 +35,7 @@ SEARCH LOST PETS LINK AND SUBMIT BUTTON
   border: 1px solid #4B99AD;
   color: #fff;
   text-shadow: .5px .5px .5px black;
-  padding-bottom: 47%;
+  padding-bottom: 73%;
   z-index: 0;
 }
 a#galBtn.searchLost{
@@ -44,13 +44,18 @@ a#galBtn.searchLost{
   padding-right: 10%;
   z-index: 0;
 }
+.divideText{
+  color: white;
+  font-size: 14px;
+  text-shadow: .5px .5px .5px black;
+}
 a:hover{
   color: lightgrey;
 }
 li #submit{
   z-index: 999999;
   padding: 5% 5% 5% 5%;
-  width: 49%;
+  width: 55%;
 }
 
 /**********
@@ -121,8 +126,7 @@ select{
     border: 1px solid #88D5E9;
 }
 label.firstClass{
-  margin-top: 1%;
-  padding-top: 5%;
+  margin-top: 3%;
 }
 .formStyle1 .fieldDivided{
     width: 49%;

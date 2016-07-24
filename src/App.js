@@ -21,9 +21,11 @@ class App extends Component {
         <ul className="formStyle1">
 
           <li>
-          <a href="#" id="galBtn" className="searchLost" onClick={this.handleDisplayPets}>Search Lost Pets
+          <a href="#" id="galBtn" className="searchLost" onClick={this.handleDisplayPets}>Search All Lost Pets
           </a>
           </li>
+          <br></br>
+          <li><span className="divideText">OR ENTER:</span></li>
 
           <li>
           <label className="firstClass">Pet Name
