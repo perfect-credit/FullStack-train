@@ -8,7 +8,7 @@ class App extends Component {
   };
 
   render() {
-    const { props } = this;
+    // const { props } = this;
     return (
       <div
       className="App"
@@ -164,23 +164,6 @@ class App extends Component {
       />
       </div>
       </div>
-
-      // { props.history.map((messageObj) => {
-      //   const messageDate = new Date(messageObj.When);
-      //   const messageDateTime = messageDate.toLocaleDateString() +
-      //     ' at ' + messageDate.toLocaleTimeString();
-      //   return (
-      //     <li className="collection-item avatar" key={ messageObj.When }>
-      //       <span className="title">Anonymous #{ messageObj.Who }</span>
-      //       <p>
-      //         <i className="prefix mdi-action-alarm" />
-      //         <span className="message-date">{ messageDateTime }</span>
-      //         <br />
-      //         <span>{ messageObj.What }</span>
-      //       </p>
-      //     </li>
-      //   );
-      // }) }
     );
   }
 }
